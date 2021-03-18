@@ -19,6 +19,8 @@ jobs:
       with:
         node-version: 10.x
     # npm install
+    
+    
     - name: 同步任务
       env:
         SECRET_ID: ${{ secrets.SECRET_ID }}
